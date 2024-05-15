@@ -30,11 +30,11 @@ public class BallMovment : MonoBehaviour
 
     if (isStartingPlayer1)
     {
-      this.gameObject.transform.localPosition = new Vector3(-1.4f, 0, 0);
+      this.gameObject.transform.localPosition = new Vector3(-1.4f, 0.56f, 0);
     }
     else
     {
-      this.gameObject.transform.localPosition = new Vector3(1.4f, 0, 0);
+      this.gameObject.transform.localPosition = new Vector3(1.4f, 0.56f, 0);
     }
 
   }

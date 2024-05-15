@@ -7,7 +7,7 @@ public class Racket2AI : MonoBehaviour
 
   public void FixedUpdate()
   {
-    if (Mathf.Abs(this.transform.position.y - ball.transform.position.y) > 1.09){
+    if (Mathf.Abs(this.transform.position.y - ball.transform.position.y) > 1.075){
       if (transform.position.y < ball.transform.position.y)
       {
         GetComponent<Rigidbody2D>().velocity = new Vector2(0,1)*moveSpeed;
