@@ -527,7 +527,7 @@ GameObject:
   - component: {fileID: 237203047}
   - component: {fileID: 237203046}
   m_Layer: 5
-  m_Name: Players
+  m_Name: Players Info
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -781,8 +781,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -426.5, y: 418.3}
-  m_SizeDelta: {x: 800.01, y: 212.44}
+  m_AnchoredPosition: {x: -572.1, y: 403.6}
+  m_SizeDelta: {x: 800.01, y: 165.24}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &477030660
 MonoBehaviour:
@@ -839,7 +839,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 4
-  m_VerticalAlignment: 256
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -1846,7 +1846,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02e2e16c86df66349839a0ce47d481b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 1080
+  moveSpeed: 20
 --- !u!1 &939823149
 GameObject:
   m_ObjectHideFlags: 0
@@ -2001,8 +2001,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 404.88, y: 414.6}
-  m_SizeDelta: {x: 778, y: 212.44}
+  m_AnchoredPosition: {x: 565.6, y: 403.6}
+  m_SizeDelta: {x: 778, y: 165.24}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &973850806
 MonoBehaviour:
@@ -2059,7 +2059,7 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -2840,8 +2840,12 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8994697493350572642, guid: c624fee95a852f44faa8fef367b8b1e0, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 22.607826
+      objectReference: {fileID: 0}
+    - target: {fileID: 8994697493350572642, guid: c624fee95a852f44faa8fef367b8b1e0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.4109
+      value: 0.0439
       objectReference: {fileID: 0}
     - target: {fileID: 8994697493350572642, guid: c624fee95a852f44faa8fef367b8b1e0, type: 3}
       propertyPath: m_LocalPosition.y
